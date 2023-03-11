@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<head>
+	<title>To-Do List</title>
+</head>
+<body>
+	<h1 class="dipu"> <center>Task List 2023</center> </h1>
+
+	<form>
+		<center><input type="text" class="input" placeholder="Enter a task...">
+		<button type="submit" class="button">Add</button></center>
+	</form>
+    <ol><ol><ol><ol><ol><ol><OL><OL><OL><OL><h3>Tasks</h3></OL></OL></OL></OL></ol></ol></ol></ol></ol></ol>
+	<ul>
+		<li>Task 1</li>
+		<li>Task 2</li>
+		<li>Task 3</li>
+	</ul>
+</body>
+</html>
+<!-- <script>
+		// get references to the add and delete buttons
+		const addButton = document.getElementById('add');
+		const deleteButtons = document.querySelectorAll('.delete');
+
+		// add event listener for the add button
+		addButton.addEventListener('click', (event) => {
+			event.preventDefault();
+			const taskList = document.getElementById('taskList');
+			const taskInput = document.querySelector('input[type="text"]');
+			const newTask = document.createElement('li');
+			newTask.textContent = taskInput.value;
+			const deleteButton = document.createElement('button');
+			deleteButton.textContent = 'Delete';
+			deleteButton.classList.add('delete');
+			newTask.appendChild(deleteButton);
+			taskList.appendChild(newTask);
+			taskInput.value = '';
+			addDeleteEventListeners();
+		});
+
+		// add event listeners for the delete buttons
+		function addDeleteEventListeners() {
+			deleteButtons.forEach((button) => {
+				button.addEventListener('click', (event) => {
+					event.preventDefault();
+					button.parentNode.remove();
+				});
+			});
+		}
+		addDeleteEventListeners();
+	</script> -->
+    <!-- <style>
+		ul {
+			list-style: none;
+			padding: 0;
+		}
+		li {
+			margin: 5px 0;
+		}
+		button {
+			margin: 5px;
+		}
+	</style> -->
